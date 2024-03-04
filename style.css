@@ -1,0 +1,311 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    height: 610vh;
+}
+
+/* banner - boshi  */
+.banner__collection {
+    width: 100%;
+    height: 30px;
+    background: rgb(226, 225, 225);
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 40px;
+}
+
+.banner__item {
+    display: flex;
+    gap: 40px;
+    padding: 0 60px;
+    color: #444;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.banner__item p:hover {
+    border-bottom: 1px solid blue;
+}
+
+/* banner - tugashi */
+
+
+
+/* Navbar - boshlanishi */
+.navbar__collection {
+    width: 100%;
+    height: 70px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 50px;
+    padding: 0 50px;
+}
+
+.navbar__collection_ichidan {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 100px;
+
+}
+
+.navbar__logo img {
+    width: 170px;
+}
+
+.navbar__text {
+    width: auto;
+    display: flex;
+    gap: 30px;
+    font-size: 17px;
+    color: violet;
+}
+
+.navbar__parent:hover {
+    cursor: pointer;
+    color: rgb(0, 0, 163);
+}
+
+.navbar__iconca {
+    display: flex;
+    font-size: 30px;
+    gap: 20px;
+    color: blueviolet;
+    cursor: pointer;
+
+}
+
+.navbar__spanlari {
+    display: none;
+
+}
+
+.navbar__spanlari span {
+    display: block;
+    width: 30px;
+    height: 5px;
+    background: #000;
+    margin-top: 3px;
+    border-radius: 10px;
+
+}
+
+/*  navbar - tugashi */
+
+
+/* main rasmi boshlanishi  */
+.main__rasm {
+    width: 100%;
+    height: 800px;
+    background: url("/img/maxresdefault.jpg") no-repeat center/cover;
+}
+
+.main__rangli_rasm {
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(60deg, rgb(6, 6, 111), violet);
+}
+
+.main__rangli_rasm__text {
+    padding: 40px 50px;
+    line-height: 2;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.main__rangli_rasm__text button {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 20px;
+    background: blue;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    transition: 1s;
+}
+
+.main__rangli_rasm__text button:hover {
+    background: rgb(103, 28, 172);
+}
+
+/* main rasmni tugashi */
+
+
+
+/* cake picture start main */
+.big_div {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.big_div_first_image img {
+    border-radius: 10px;
+    /* width: 400px;
+    height: 300px; */
+    border: 1px solid red;
+}
+
+.big_div_second_image img {
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.big_div_third_image img {
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+.big_div_fourth_image img {
+    border-radius: 10px;
+    border: 1px solid red;
+}
+
+/* the end of the picture with the cake */
+
+
+
+/* teal_green_div_Beginning */
+
+.teal_green_img {
+    width: 100%;
+    height: 400px;
+    background: url("/img/teal-green.webp") no-repeat center/cover;
+
+}
+
+.teal_green_img h1 {
+    padding-top: 70px;
+    padding-left: 40px;
+    color: white;
+    font-size: 40px;
+}
+
+.carusel__rasm_teal_green {
+    width: 95%;
+    margin: auto;
+    padding: 10px 0;
+    display: flex;
+    gap: 12px;
+    overflow: auto;
+}
+
+.teal_green__carusel img {
+    height: 450px;
+}
+
+.carusel__rasm_teal_green::-webkit-scrollbar {
+    height: 6px;
+}
+
+.carusel__rasm_teal_green::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc;
+    border-radius: 30px;
+}
+
+/* teal_green_div_ending */
+
+
+/* oyni boshlanishi  */
+.oy_rasm_main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 350px 10px;
+    height: auto;
+}
+
+.main_rasm_oy {
+    width: 1390px;
+    height: 800px;
+    background: url("/img/oy_bola.webp")no-repeat center/cover;
+    border-radius: 10px;
+
+}
+
+.bacraun_img {
+    width: 100%;
+    height: 400px;
+    background: linear-gradient(490deg, blue, green, violet);
+}
+
+/* oyni tugashi */
+
+
+/* main - rasm - button bor boshlanishi  */
+.main_real_rasm {
+    width: 100%;
+    height: 300px;
+    background: url("/img/main_rasm_blueee.webp")no-repeat center/cover;
+    margin-top: 300px;
+}
+
+/* main - rasm - button bor tugashi  */
+
+
+.footer__collection {
+    width: 100%;
+    height: 600px;
+
+
+}
+
+.footer__logo {
+    width: 100%;
+    height: 150px;
+
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    line-height: 1.5;
+}
+
+.footer__logo img {
+    width: 150px;
+    height: 150px;
+}
+
+.text__fot {
+    display: flex;
+    gap: 40px;
+    color: blue;
+}
+
+.buuton__fot button {
+    width: 250px;
+    height: 60px;
+    font-size: 17px;
+    border: none;
+    color: blue;
+    border: 2px solid blue;
+    border-radius: 10px;
+    background: transparent;
+}
+
+.foter__text {
+    display: flex;
+    gap: 40px;
+    color: rgb(25, 99, 99);
+}
